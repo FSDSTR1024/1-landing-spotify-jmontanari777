@@ -1,0 +1,20 @@
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: aquamarine;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(195, 127, 255);
+}
