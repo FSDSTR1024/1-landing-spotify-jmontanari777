@@ -7,13 +7,11 @@
 
 
 @font-face {
-  font-family: 'Gotham'; /* Fuente de Spotify*/
-  src: url('src/fonts/GothamMedium.ttf'); 
-  /*src: url('src/fonts/GothamBold.ttf'); 
-  src: url('src/fonts/GothamBoldItalic.ttf'); */
- 
+  font-family: 'SpotifyMixUI-Regular'; /* Fuente de Spotify*/
+  src: url('src/fonts/SpotifyMixUI-Regular.ttf'); 
   font-style: normal;
 }
+
 
 .navbar {
   display: flex;
@@ -22,7 +20,7 @@
   height: 89px;
   background-color: #000;
   color: #fff;
-  font-family:'Gotham';
+  font-family:'SpotifyMixUI-Regular';
 
 }
 
@@ -86,7 +84,7 @@ height:111%;
   padding: 0.5rem 1rem;
   text-decoration: none;
   display: block;
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 18px;    
 }
 
@@ -94,7 +92,7 @@ height:111%;
   color: #fff;
   text-decoration: none;
   display: block;
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 10px;
   margin-left: 40px;    
 }
@@ -110,7 +108,7 @@ height:111%;
 /* Degradado*/
 
 .degradado{
-  height: 560vh;
+  height: 600vh;
   background: linear-gradient(to bottom, rgb(245, 201, 206),rgb(18, 18, 18)), rgb(18, 18, 18);
   background-size: 100% 5%, 100%;
   background-repeat: no-repeat;
@@ -177,22 +175,22 @@ height:111%;
 }
 
 .titulo{
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-weight: bold;
   font-size: 52px;
   color:white;   
 }
 
 .subtitulo{
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 18px;
   color:white;
-  font-weight: bold;
+
 }
 
 .subtitulo2{
   margin-top: 35px;
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 13px;
   color:white;
   text-align: left;
@@ -218,7 +216,7 @@ height:111%;
 .grid-container .item {
   
   text-align: center;
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 16px;
   border-bottom: 1px solid white; /* Línea horizontal inferior */
   margin-top: 30px;
@@ -228,7 +226,7 @@ height:111%;
 
 .item_grid{
 
-font-family: "Gotham";
+font-family: "SpotifyMixUI-Regular";
 font-size: 14px;
 color: white;
 text-decoration: underline;
@@ -284,13 +282,13 @@ button.boton2{
 }
 
 .item{
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 12px;
   color: white;
 }
 .planes {
   margin-top: 40px;
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   justify-items: center;
   color: white;
 }
@@ -300,7 +298,7 @@ button.boton2{
   
 }
 .planes p{
-  font-family: 'Gotham';
+  font-family: 'SpotifyMixUI-Regular';
   font-size: 12px ;
   margin-top: 25px;
 }
@@ -324,7 +322,7 @@ button.boton2{
   justify-content: center; /* Para centrar las columnas horizontalmente */
   margin: 0 auto; /* Añade márgenes automáticos a los lados del contenedor */
   max-width: 1200px;
-  font-size: 'Gotham';
+  font-size: 'SpotifyMixUI-Regular';
   color: white; 
   width: 80%; 
   gap: 20px; 
@@ -404,7 +402,7 @@ button.boton2{
   display: flex;
   flex-direction: column;
   align-items: flex-start;   
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   color: white;
 }
 .header {
@@ -548,33 +546,33 @@ button:hover {
 }
 
 p.individual{
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   font-size: 32px;
   color: #ffd1d6;
 }
 
 
 p.estudiantes{
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   font-size: 32px;
   color: #c3b0d4;
 }
 
 p.duo{
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   font-size: 32px;
   color: #ffc861;
 }
 
 p.familiar{
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   font-size: 32px;
   color: #a5bbd1;
 }
 
 
 p.gris{
-  font-family: "Gotham";
+  font-family: "SpotifyMixUI-Regular";
   font-size: 12px;
   color: rgb(131, 126, 126);
 }
@@ -638,35 +636,52 @@ a {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
   padding: 20px;
   background-color: black;
-  color: #b3b3b3;
+  color: #b3b3b3; 
+  text-decoration: none;
 }
+
 
 .footer-section h4 {
   font-size: 14px;
   margin-bottom: 10px;
   color: #ffffff;
+
 }
 
 .footer-section ul {
   list-style: none;
+
+
 }
 
 .footer-section ul li {
   margin: 8px 0;
+
 }
 
 .footer-section ul li a {
-  color: #b3b3b3;
-  text-decoration: none;
+  color: #b3b3b3;  
   font-size: 13px;
 }
 
 .footer-section ul li a:hover {
   color: #1db954;
+}
+
+.footer-section .pepe a:hover {
+color: #1db954;
+}
+
+.spain a:hover {
+color: #1db954;
+}
+
+.spain a {
+text-decoration: none;
 }
 
 .redes{
@@ -681,3 +696,29 @@ a {
   object-fit: fill;
 }
 
+.spain{
+  font-family: 'SpotifyMixUI-Regular';
+  font-size: 12px; 
+  align-self: end;
+  justify-self: end;
+  margin-right: 57px;
+}
+.pepe{
+  width: 180px;  
+  column-gap: 10px;  
+
+}
+
+
+.footer-section .pepe a,h4{
+  font-family: 'SpotifyMixUI-Regular';
+  font-size: 12px; 
+  text-decoration: none;
+ 
+}
+
+h3{
+font-family: 'SpotifyMixUI-Regular';
+font-size: 12px; 
+color: #b3b3b3;
+}
